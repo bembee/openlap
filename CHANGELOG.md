@@ -1,3 +1,9 @@
+2.5.2 2025-12-28
+----------------
+
+- Fix language/speech selsction issues on Android.
+
+
 2.5.1 2025-12-16
 ----------------
 

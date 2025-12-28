@@ -31,8 +31,8 @@ var TextToSpeechAdvanced = /** @class */ (function (_super) {
     TextToSpeechAdvanced.prototype.speak = function (textOrOptions) { return core.cordova(this, "speak", { "otherPromise": true }, arguments); };
     TextToSpeechAdvanced.prototype.stop = function () { return core.cordova(this, "stop", { "otherPromise": true }, arguments); };
     TextToSpeechAdvanced.prototype.getVoices = function () { return core.cordova(this, "getVoices", { "otherPromise": true }, arguments); };
-    TextToSpeechAdvanced.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0__namespace, type: TextToSpeechAdvanced, deps: null, target: i0__namespace.ɵɵFactoryTarget.Injectable });
-    TextToSpeechAdvanced.ɵprov = i0__namespace.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0__namespace, type: TextToSpeechAdvanced });
+    TextToSpeechAdvanced.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: TextToSpeechAdvanced, deps: null, target: i0__namespace.ɵɵFactoryTarget.Injectable });
+    TextToSpeechAdvanced.ɵprov = i0__namespace.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: TextToSpeechAdvanced });
     TextToSpeechAdvanced.pluginName = "Text To Speech Advanced";
     TextToSpeechAdvanced.plugin = "cordova-plugin-tts-advanced";
     TextToSpeechAdvanced.pluginRef = "TTS";
@@ -41,7 +41,7 @@ var TextToSpeechAdvanced = /** @class */ (function (_super) {
     TextToSpeechAdvanced = tslib.__decorate([], TextToSpeechAdvanced);
     return TextToSpeechAdvanced;
 }(core.AwesomeCordovaNativePlugin));
-i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0__namespace, type: TextToSpeechAdvanced, decorators: [{
+i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0__namespace, type: TextToSpeechAdvanced, decorators: [{
             type: i0.Injectable
         }], propDecorators: { speak: [], stop: [], getVoices: [] } });
 
